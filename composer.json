@@ -1,0 +1,21 @@
+{
+  "name": "beninada/eloquent-encryptable",
+  "description": "Automatically encrypts and decrypts Eloquent models.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Ben Inada",
+          "email": "ben@beninada.com",
+          "homepage": "https://beninada.com"
+      }
+  ],
+  "require": {
+    "illuminate/encryption": "^4.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "BenInada\\Eloquent\\": "src/"
+      }
+  }
+}
