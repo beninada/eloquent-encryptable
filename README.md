@@ -2,6 +2,12 @@
 
 Automatically encrypt and decrypt Eloquent model attributes.
 
+## Installation
+
+```bash
+composer require beninada/eloquent-encryptable
+```
+
 ## Usage
 
 Add this trait to your model and specify the fields you want encrypted in `$encryptable`:
